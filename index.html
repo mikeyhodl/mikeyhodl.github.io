@@ -1,414 +1,727 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mike Owino</title>
-<meta name="description" content="">
-<meta name="author" content="">
 
-<!-- Favicons
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Mike Owino</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
     ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-<!-- Stylesheet
-    ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-
+   <!-- Favicons
+	================================================== -->
 	<link rel="shortcut icon" href="mylogo.png" >
+  
+  <script 
+  src="https://ajax.googleapis.com/ajax/libs/jquery.min.js">
+  </script>
+  <script>
+    $('input[type=text] , textarea') .bind('copy paste cut drag drop') , function (e{
+      e.preventDefault();
+    });
+  </script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-<body oncontextmenu="return false" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="container">
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a href="soon/index.html" target="_blank">Blog</a></li>
+            <li><a href="verum/index.html" target="_blank">Site#2</a></li>
+            <li><a href="mike/index.html" target="_blank">Site#3</a></li>
+            <li><a href="SOOON/index.html" target="_blank">Site#4</a></li>
+
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+                                                
+      <div class="row banner">
+<!--         <div id="large-header" class="large-header">-->
+<!--         <canvas id="demo-canvas"> </canvas>-->
+
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Mike Owino.</h1>
+             <h3>I'm a Kenyan based <span>Web </span> | <span>Android Developer</span> and <span>UIDeveloper.</span><br>
+             <a class="smoothscroll" href="old.html">Start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr/>
+            <ul class="social">
+
+               <li><a href="http://www.github.com/mickeow"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/mikeowino"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/mikeowino"><i class="fa fa-skype"></i></a></li>
+               <li><a href="https://www.faceboo.com/mikeowino.co.ke"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.twitter.com/mikeeowino"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.youtube.com/mikeowino"><i class="fa fa-youtube"></i></a></li>
+               <li><a href="https://www.dribbble.com/mikeowino"><i class="fa fa-dribbble"></i></a></li>
+               <li><a href="https://www.rss.com/mikeowino"><i class="fa fa-rss"></i></a></li>
+               <li><a href="https://www.instagram.com/m.ic.k.e._"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.pinterest.com/mikeowino"><i class="fa fa-pinterest"></i></a></li>
+               <li><a href="https://www.android.com/mikeowino"><i class="fa fa-android"></i></a></li>
+               <li><a href="https://www.tumblr.com/mikeowino"><i class="fa fa-tumblr"></i></a></li>
+               <li><a href="https://www.flickr.com/mikeowino"><i class="fa fa-flickr"></i></a></li>
+               <li><a href="https://www.foursquare.com/mikeowino"><i class="fa fa-foursquare"></i></a></li>
+
+
+               
+            </ul>
+         </div>
+      </div>
+               
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+       
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
       <div class="row">
-        <div class="intro-text">
-          <h1>Hello, It's <span class="name">Mike Owino</span></h1>
-          <p>Cryptographer & Front End Developer</p>
-          <a href="https://github.com/mickeow" target="_blank" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/cvpic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am an Android | Web Developer | UI. I am proud holder of TechRadar Champion. I play basketball, position bigforward, jersey number 6. I believe that everyone has the power to be whatever they want in this life if they put there mind to it, you decide and define your own destiny, your own legend.
+            </p>
+
+            <div class="row">
+
+               <div class="columns download">
+                  <p>
+
+                     <a href="MikeOwinoCv.pdf" class="button"><i class="fa fa-download" download></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
       </div>
-    </div>
-  </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Mike Owino</a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#resume">Resume</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-   <div id="nav">
-  <nav class="navbar navbar-custom">
-    <div class="container">
-      <div class="navbar-header">
-<!-- About Section -->
-        <iframe src="https://youcount.github.io/e/#!/tseries" height="100" width="250" frameborder="0"></iframe>
-        <iframe src="https://youcount.github.io/e/#!/Mike+Owino" height="100" width="250" frameborder="0"></iframe>
-           </div>
-  </nav>
-</div>
-    <nav>
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About Me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>I am an Android | Web Developer | Fashion Model. I play basketball, position bigforward, jersey number 6. </p>
-          <p>I believe that everyone has the power to be whatever they want in this life if they put there mind to it, you decide and define your own destiny, your own legend.</p>
-          <p class="text-center"><a class="btn btn-primary" href="https://github.com/MikeOwino/Me/blob/master/cv.pdf" target="_blank"><i class="fa fa-download"></i>MY CV</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Skills Section -->
-<div id="skills" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Skills</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
-        <h4>HTML</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
-        <h4>CSS</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>jQuery</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>Java</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
-        <h4>C++</h4>
-      </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-        <h4>Python</h4>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>Portfolio</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small> </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small> </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small> </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Achievements Section -->
-<div id="achievements" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Some Stats</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="200ms">
-        <div class="achievement-box"> <span class="count">110</span>
-          <h4>Successful Achievements</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="400ms">
-        <div class="achievement-box"> <span class="count">10</span>
-          <h4>Hours of Work per day</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="600ms">
-        <div class="achievement-box"> <span class="count">32</span>
-          <h4>Awards Won</h4>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="800ms">
-        <div class="achievement-box"> <span class="count">4</span>
-          <h4>Years of Experience</h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Resume Section -->
-<div id="resume" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Experience</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          <li>
-            <div class="timeline-image">
-              <h4>May 2018 <br>
-                - <br>
-                Present </h4>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3><a href="moringaschool.com">Moringa School Of Coding</a></h3>
+                  <p class="info">Web and Mobile Development <span>&bull;</span> <em class="date">june-october 2015</em></p>
+
+                  <p>
+Moringa school is an intensive 4 month coding bootcamp, where high potential and proactive students learn to be worldclass mobile and web developers.
+
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                 <h3><a href="http://www.dkut.ac.ke/">Dedan Kimathi University of Science and Technology</a></h3>
+                  <p class="info">BSc. Computer Science <span>&bull;</span> <em class="date">2013-2017</em></p>
+
+                  <p>
+                I graduated with an undergraduate degree in computer science majoring in Software engineering. I picked SWE as my major because it is amazing having the power to create anything within your imagination changing your reality.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3><a href="https://techpoint.ng/2015/09/25/barclays-kenya-launches-product-lab/">Barclays Product Lab</a></h3>
+                  <p class="info">Software Developer<span>&bull;</span> <em class="date">october 2015-january 2016</em></p>
+
+                  <p>
+                 It was an intensive program with Barclays Bank Of Kenya. The bank paired the developers in a teams of 2 and they gave each team a different problem statement. In my team we were to work with investment clubs. We did user research, design prototypes and build a solution obeying agile development principles. We later pitched to CEO, Jeremy Awori. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3><a href="https://matthaikin.com/2016/01/27/join-me-in-nairobi-at-tech-for-tax-justice-feb-1-3/">Tech 4 Tax Justice, Oxfam Hackathon.</a></h3>
+                  <p class="info">Software Developer <span>&bull;</span> <em class="date">2 & 3 February 2016</em></p>
+
+                  <p>
+                 The hackathon was about tax justice in nairobi, wajir and Turkana counties. My team focused on Turkana market traders, we came up with a solution that digitized the tax collection process and got the citizens more involved  and aware about the county budget, tax allocation and expenditure. <em>WE WERE 2ND RUNNNERS UP.</em> 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end --> 
+             
+             <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3><a href="http://angelhack.com/2016/05/06/angelhack-nairobi-recap/">#SmartcitiesNairobi,ANGELHACK</a></h3>
+                  <p class="info">Software Developer <span>&bull;</span> <em class="date">29 & 30 April 2016</em></p>
+
+                  <p>
+                 The hackathon was about using <b>Fabric twitter api</b> to create a digital solution that will improve the nairobi city life. My team focused on the county goverment officials, we came up with a great idea that will pull data from twitter to advertise county job openings and budget and expenditure, that way reducing unemployment. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+             
+             <div class="row item">
+
+               <div class="twelve columns">
+
+                 <h3><a href="http://about.workbay.net/">WorkBay.net</a></h3> 
+                  <p class="info">Software Developer <span>&bull;</span> <em class="date">March-June 2016</em></p>
+
+                  <p>
+We worked in teams to create and maintain  the company’s 
+android application which will be used by residents of 
+memphis,canada. 
+We created the company’s api which we used to get 
+information to use in the android application. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Skills Metrics
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Android</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>javascript</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
+						<li><span class="bar-expand css"></span><em>CSS3</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>UX/UI Design</em></li>
+                  <li><span class="bar-expand jquery"></span><em>API Integration</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coffee</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/console.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Console</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/judah.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Judah</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Into The Light</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Farmer Boy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Girl</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Origami</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coffee Cup</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Creative Agency</h4>
-                <h4 class="subheading">UI Developer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Worked in JioLab as robotic UI expert</p>
-              </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Console</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>May 2018 <br>
-                - <br>
-                Jan 2018 </h4>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Judah</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Masaibu Labs</h4>
-                <h4 class="subheading">Front-end Developer</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Fore-end developer at Masaibu labs in Nairobi.</p>
-              </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <h4>Jan 2018 <br>
-                - <br>
-                Nov 2017 </h4>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>PhotoLab Afrique</h4>
-                <h4 class="subheading">Photoshop Consultant</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Worked with a number of Photo studios in Nairobi in Photoshop software consultancy.</p>
-              </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-          </li>
-        </ul>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Call-To-Action Section
+   ================================================== -->
+   <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+<!--            <h1><span>Hire Me</span></h1>-->
+
+         </div>
+
+         <div class="seven columns">
+
+            <h2>Inspiring Qoutes</h2>
+         </div>
+
       </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="section-title center">
-      <h2>Education</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">
-          
-          <!-- Education Section-->
-          
-          <li>
-            <div class="timeline-image">
-              <h4>2017 <br>
-                - <br>
-                Present </h4>
+
+   </section> <!-- Call-To-Action Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>My Favorite Qoutes</span></h1>
+
             </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Dedan Kimathi University</h4>
-                <h4 class="subheading">Bachelor Degree of Business Technology</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Joined in 2017 till now still studying.</p>
-              </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>I am not a product of my circumstances. I am a product of my decisions. 
+                           </p>
+                           <cite>–Stephen Covey</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+   <li>
+                        <blockquote>
+                           <p>Whatever you can do, or dream you can, begin it.  Boldness has genius, power and magic in it. 
+                           </p>
+                           <cite>–Johann Wolfgang von Goethe</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+   <li>
+                        <blockquote>
+                           <p>Go confidently in the direction of your dreams.  Live the life you have imagined.
+                           </p>
+                           <cite> –Henry David Thoreau</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
             </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>2013 <br>
-                - <br>
-                2016 </h4>
+
+            <div class="ten columns">
+
+                  <p class="lead">For any inquiries please fill the form below and I will get back to you as soon as possible...
+                  </p>
+
             </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>------- --------</h4>
-                <h4 class="subheading">Kibabii High School</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Busy studying from year 1 to 4.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
-              <h4>2005 <br>
-                - <br>
-                2012 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>------- ------</h4>
-                <h4 class="subheading">St Joseph Primary Sch. </h4>
-              </div>
-              <div class="timeline-body">
-                <p>Studied from Std 1 to Std 8 the high school preceed.</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Contact</h2>
-      <hr>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-        <p>657 10100,<br>
-          Kimathi, Nyeri</p>
-      </div>
-      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>mike.owino40@yahoo.com</p>
-      </div>
-      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +2547 4196 195</p>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <h3>Send me a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+                    <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -430,36 +743,198 @@
         <div id="success"></div>
         <button type="submit" class="btn btn-default">Send Message</button>
       </form>
-      <div class="social">
-        <ul>
-          <li><a href="https://www.facebook.com/www.mickeow.co.ke" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/__Mickeow__" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="https://dribbble.com/mikeowino" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="https://github.com/mickeow" target="_blank"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://www.instagram.com/m.i.c.k.e._" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://linkedin/mikeowino" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+<!--            <aside class="four columns footer-widgets">-->
+
+               <div class="widget widget_contact">
+
+					   <h4>Address</h4>
+					   <p class="address">
+						   Mike Owino<br>
+						    Kenya<br>
+						   <span>mikeowino@mail.ru</span>
+					   </p>
+
+				   </div>
+
+           
+<div align="center">
+  <h4><strong><font color="red">I accept Donations via :</font></strong></h4>
+  
+</div>
+<div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn" data-address="1P8fNedSx3SZmAygoRFbJJQKvJG9awLYQG" data-shared="false"> 
+  <div class="blockchain stage-begin"> <img src="https://blockchain.info/Resources/buttons/donate_64.png"/> 
+  </div> 
+  <div class="blockchain stage-loading" style="text-align:center"> <img src="https://blockchain.info/Resources/loading-large.gif"/> 
+  </div> 
+  <div class="blockchain stage-ready"> 
+    <p align="center">Please Donate To Bitcoin Address: <b>[[1P8fNedSx3SZmAygoRFbJJQKvJG9awLYQG]]</b></p> 
+    <p align="center" class="qr-code"></p> 
+  </div> 
+  <div class="blockchain stage-paid"> Donation of <b>[[value]] BTC</b> Received. Thank You. 
+  </div> 
+  <div class="blockchain stage-error"> <font color="red">[[error]]</font> 
+  </div> 
+</div>
+<br>
+<br>
+<br>
+<div align="center" id="paypal-button-container"></div>
+
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+// Render the PayPal button
+paypal.Button.render({
+// Set your environment
+env: 'production', // sandbox | production
+
+// Specify the style of the button
+style: {
+  layout: 'vertical',  // horizontal | vertical
+  size:   'medium',    // medium | large | responsive
+  shape:  'rect',      // pill | rect
+  color:  'gold'       // gold | blue | silver | white | black
+},
+
+// Specify allowed and disallowed funding sources
+//
+// Options:
+// - paypal.FUNDING.CARD
+// - paypal.FUNDING.CREDIT
+// - paypal.FUNDING.ELV
+funding: {
+  allowed: [
+    paypal.FUNDING.CARD,
+    paypal.FUNDING.CREDIT
+  ],
+  disallowed: []
+},
+
+// Enable Pay Now checkout flow (optional)
+commit: true,
+
+// PayPal Client IDs - replace with your own
+// Create a PayPal app: https://developer.paypal.com/developer/applications/create
+client: {
+  sandbox: 'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R',
+  production: '<insert production client id>'
+},
+
+payment: function (data, actions) {
+  return actions.payment.create({
+    payment: {
+      transactions: [
+        {
+          amount: {
+            total: '0.01',
+            currency: 'USD'
+          }
+        }
+      ]
+    }
+  });
+},
+
+onAuthorize: function (data, actions) {
+  return actions.payment.execute()
+    .then(function () {
+      window.alert('Payment Complete!');
+    });
+}
+}, '#paypal-button-container');
+</script>
+</div>
+
+<!--               <div class="widget widget_tweets">-->
+
+<!--
+                  <h4 class="widget-title">Latest Tweets</h4>
+
+                  <ul id="twitter">
+                     <li>
+                        <span>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">2 Days Ago</a></b>
+                     </li>
+                     <li>
+                        <span>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">3 Days Ago</a></b>
+                     </li>
+                  </ul>
+-->
+
+<!--		         </div>-->
+
+<!--            </aside>-->
+
       </div>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2019 Mike Owino. Designed by <a href="https://github.com/mickeow" target="_blank" rel="nofollow">MickeOw</a></p>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+    
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2019 Mike Owino</li>
+                
+            </ul>
+             
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+ 
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+   <script type="text/javascript" src="js/contact_me.js"></script>
+    
+    <!--animated header scripts-->
+        <script src="js/TweenLite.min.js"></script>
+        <script src="js/EasePack.min.js"></script>
+        <script src="js/rAF.js"></script>
+        <script src="js/demo-3.js"></script>
+<!--animated header end-->
+
 </body>
+
 </html>
