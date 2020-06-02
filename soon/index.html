@@ -28,16 +28,34 @@
       <h2>Coming Soon</h2>
       <p>We are currently working on some updates. Stay tuned!</p>
       <p class="tleft">Time left until launching</p>
-      <div class="counter">
-        <div class="days-wrapper"> <span class="days"></span> <br>
-          days </div>
-        <div class="hours-wrapper"> <span class="hours"></span> <br>
-          hours </div>
-        <div class="minutes-wrapper"> <span class="minutes"></span> <br>
-          minutes </div>
-        <div class="seconds-wrapper"> <span class="seconds"></span> <br>
-          seconds </div>
-      </div>
+      <div id="countdown"></div>
+    <script>
+      function countdownTimer() {
+        const difference = +new Date("2020-07-02") - +new Date();
+        let remaining = "Time's up!";
+
+        if (difference > 0) {
+          const parts = {
+            days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+            hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+            minutes: Math.floor((difference / 1000 / 60) % 60),
+            seconds: Math.floor((difference / 1000) % 60)
+          };
+
+          remaining = Object.keys(parts)
+            .map(part => {
+              if (!parts[part]) return;
+              return `${parts[part]} ${part}`;
+            })
+            .join(" ");
+        }
+
+        document.getElementById("countdown").innerHTML = remaining;
+      }
+
+      countdownTimer();
+      setInterval(countdownTimer, 1000);
+    </script>
     </div>
     <ul class="social">
               
