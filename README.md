@@ -1,4 +1,4 @@
-# mikeowino.com
+# mikeowino.com (https://github.com/MikeOwino/MikeOwino.github.io)
 
 Rich Vue.js interface to control various d3.js visualizations of confirmed and deceased cases data reported by JHU CSSE in all countries.
 [![scrennshot](https://github.com/MikeOwino/MikeOwino.github.io/blob/master/images/Screenshot%20(304).png)](https://github.com/MikeOwino/MikeOwino.github.io)
