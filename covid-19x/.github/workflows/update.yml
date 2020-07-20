@@ -1,0 +1,40 @@
+name: Auto Update
+
+on:
+  schedule:
+    - cron:  '*/20 * * * *'
+
+jobs:
+  update:
+    name: Update Data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Update Sources
+        run: ./bin/update_sources.sh
+  
+      - name: Commit Sources Data
+        run: |
+          if git diff --name-only data/*.csv | grep . ; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "update sources data" data/*.csv
+          fi
+  
+      - name: Build Viz Data
+        run: ./bin/export-main-countries.py
+  
+      - name: Commit & Push Viz Data
+        run: |
+          if git diff data/*.json | grep . > /dev/null ; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git commit -m "update viz data" data/coronavirus-countries.json
+            git push
+          fi
+  
