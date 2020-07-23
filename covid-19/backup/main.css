@@ -1,0 +1,286 @@
+html, body, main {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  overflow: hidden
+}
+
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: url('../img/loading.gif') 50% 50% no-repeat white;
+  opacity: 1;
+}
+
+#demo {
+  font-size: 14px
+}
+#demo > h5 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size: 16px
+}
+
+#demo>li {
+  /* padding: 5px; */
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  /* z-index: 1000 !important; */
+  left: 0;
+  right: 0;
+  margin: 0;
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  overflow: hidden
+}
+
+.leaflet-control-layers {
+  color: #333333 !important;
+  background-color: none;
+  padding: 6px 8px;
+  border: none !important;
+  background: rgba(225, 225, 225, 0.5) !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px !important;
+}
+
+.leaflet-control-zoom, .leaflet-control-zoom-in, .leaflet-control-zoom-out {
+  color: #333333 !important;
+  padding: 0px !important;
+  background-color: transparent;
+  border: none !important;
+  background: rgba(225, 225, 225, 0.5) !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 5px !important;
+}
+
+.c3-legend-background {
+  fill: transparent;
+  stroke: transparent;
+}
+
+@media only screen and (max-width: 1026px) {
+  #info, .legend, .leaflet-top {
+    display: none;
+  }
+}
+
+#info {
+  position: absolute;
+  width: 480px;
+  top: 1%;
+  bottom: 1%;
+  left: .5%;
+  z-index: 1000;
+  background: #343a40;
+  color: white;
+  opacity: 1;
+  padding: 40px 15px 20px 15px;
+  /* overflow-x: hidden; */
+  /* overflow-x: hidden;
+  overflow-y: visible; */
+  /* overflow: hidden; */
+
+}
+
+.card-deck .card {
+  background: #343a40;
+  padding: 2px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.card-body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.card-title {
+  color: lightgray;
+  font-size: 14px;
+  margin-bottom: 0rem;
+  font-weight: bold;
+}
+
+#legend-panel {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 300px;
+  height: 20px;
+  z-index: 1000;
+  background: #343a4000;
+}
+
+.legend .card {
+  background: #343a4000;
+  padding: 0;
+}
+
+.legend .card-title {
+  font-size: 13px;
+  /* text-align: left; */
+  /* padding-left: 4px; */
+  /* background: #343a4000; */
+}
+
+.card-text {
+  font-size: 40px;
+  text-align: center;
+  /* background: #343a4000; */
+}
+
+#info h4 i {
+  font-size: 1.25e;
+  padding-right: 10px
+}
+
+#title {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#title span {
+  font-size: 14px;
+  float: right;
+}
+
+span {
+  margin-right: 10px;
+}
+
+#info a {
+  color: white;
+}
+
+#info a:hover {
+  color: white;
+  opacity: 0.3;
+}
+
+#date {
+  position: relative;
+  top: -40px;
+  /* position: relative;
+  top: -85px;
+  left: 30px; */
+  /* text-align: left; */
+  font-size: 14px;
+  /* font-weight:  */
+  color: danger;
+  /* font-family: 'Oswald', sans-serif; */
+  /* font-size: 48px; */
+}
+
+#placename {
+  font-size: 40px;
+  position: relative;
+  top: -20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#hint {
+  position: relative;
+  top: -40px;
+  width: 5000px;
+  color: gray;
+  font-size: 13px;
+  font-style: italic;
+  text-decoration: underline;
+  left: -10px;
+}
+
+.counts {
+  margin-top: -20px;
+}
+
+text {
+  fill: gray
+}
+
+.tick line {
+  stroke: gray;
+}
+
+.c3-axis path {
+  stroke: gray;
+}
+
+.c3-bar {
+  fill: #dc3545 !important;
+}
+
+.name {
+  background-color: black;
+  color: black
+}
+
+.value {
+  background-color: black;
+  color: black
+}
+
+#total-chart {
+  position: relative;
+  top: 10px;
+  left: -20px;
+}
+
+#rank-chart {
+  position: relative;
+  top: 30px;
+  left: -20px;
+}
+
+#rank-chart>div>table>tbody>tr>td>span {
+  background-color: #dc3545 !important
+}
+
+#footer {
+  position: relative;
+  top: 40px;
+  bottom: 10px;
+  font-size: 13px;
+  line-height: 150%;
+  color: lightgray;
+  margin-bottom:50px;
+}
+
+.confirmed-count {
+  color: #dc3545;
+}
+
+.suspected-count {
+  color: orange;
+}
+
+.recovered-count {
+  color: #28a745;
+}
+
+.death-count {
+  color: #5d4f72e8;
+}
+
+.textLabelclass a {
+  white-space: nowrap;
+  font-size: 10px;
+  color: brown !important;
+}
