@@ -79,7 +79,11 @@ for item in items[1:35]:
 url = "https://en.wikipedia.org/wiki/Template:COVID-19_pandemic_data"
 
 soup = BeautifulSoup(urlopen(url), "html.parser")
+<<<<<<< HEAD
 table = soup.find_all("tbody")[1]
+=======
+table = soup.find("tbody")
+>>>>>>> 5ed184c99ebcf9abbd251ec81bc7f6c1e926d224
 items = table.find_all("tr")
 for item in items[2:]:
     name, confirmed, recovered, death = "", "", "", ""
