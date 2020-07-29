@@ -11,9 +11,9 @@ import requests
 #browser = webdriver.Chrome("/Users/FengyuXu/Desktop/web_crawler/twitter_crawler/chromedriver")
 #browser = webdriver.Chrome("/Users/joshuaji/Desktop/chromedriver") #joshua's chromedrive location
 #browser = webdriver.Chrome("C:/workspace/chromedriver.exe")
-browser = webdriver.Chrome("E:/dev/workspaces/chromedriver.exe")
+#browser = webdriver.Chrome("E:/dev/workspaces/chromedriver.exe")
 #browser = webdriver.Chrome("C:/Users/Steven/workspaces/chromedriver.exe")
-#browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
+browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
 
 # Variable Preparation
 now = str(datetime.now())
@@ -79,7 +79,7 @@ for item in items[1:35]:
 url = "https://en.wikipedia.org/wiki/Template:COVID-19_pandemic_data"
 
 soup = BeautifulSoup(urlopen(url), "html.parser")
-table = soup.find_all("tbody")[1]
+table = soup.find_all("tbody")[0]
 items = table.find_all("tr")
 for item in items[2:]:
     name, confirmed, recovered, death = "", "", "", ""
