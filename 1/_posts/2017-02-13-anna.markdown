@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Alice Roberts"
+slug: "ar"
+date:   2017-02-13 13:57:51 -0500
+categories: suspect
+title_job:  "Assistant"
+
+background: desk.png
+---
+Since beginning her career as a personal assistant in 1929, Alice has become a well liked employee at Raytheon Technologies. Although a hard worker, some question her level of involvement in the company. How much power should an assistant have?  
