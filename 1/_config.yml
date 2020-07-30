@@ -7,7 +7,7 @@
 
 # Site settings
 title: Cold Case
-email: your-email@domain.com
+email: mikeowino@mail.ru
 description: > # this means to ignore newlines until "baseurl:"
 
   Write an awesome description for your new site here. You can edit this
@@ -21,8 +21,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/murder-mystery" # the subpath of your site, e.g. /blog
 url: "https://tatimblin.github.io/murder-mystery/" # the base hostname & protocol for your site
 
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mikeeowino
+github_username:  MikeOwino
 
 # Build settings
 markdown: kramdown
