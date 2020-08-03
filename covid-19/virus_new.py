@@ -11,9 +11,9 @@ import requests
 # browser = webdriver.Chrome("/Users/FengyuXu/Desktop/web_crawler/twitter_crawler/chromedriver")
 # browser = webdriver.Chrome("/Users/joshuaji/Desktop/chromedriver") #joshua's chromedrive location
 # browser = webdriver.Chrome("C:/workspace/chromedriver.exe")
-browser = webdriver.Chrome("E:/dev/workspaces/chromedriver.exe")
+# browser = webdriver.Chrome("E:/dev/workspaces/chromedriver.exe")
 # browser = webdriver.Chrome("C:/Users/Steven/workspaces/chromedriver.exe")
-# browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
+browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
 
 # Variable Preparation
 now = str(datetime.now())
@@ -176,7 +176,6 @@ with urllib.request.urlopen(urllink) as url:
 # U.S. States - old version which uses NBC data
 conn = sqlite3.connect("assets/virus.db")
 cursor = conn.cursor()
-
 urllink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdW9DsR5iffFcJvKAJXyOiNn4IYtavRIGslkcJIslHJC7UfrbChv-L4E89TeDEcWZS6QSzCuHWeMON/pub?gid=1879451031&single=true&output=csv"
 with urllib.request.urlopen(urllink) as url:
     content = url.read().decode()
