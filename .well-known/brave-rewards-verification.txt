@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: mikeowino.github.io
-Token: fa6faf852d8a3d1f0ba657fecfb92ae12ec4cee7847add762758aa57243976ca
