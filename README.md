@@ -65,7 +65,7 @@
   </tbody>
 </table>
 
-<a href="https://github.com/MikeOwino/jekyll_game/" target="_blank"><b>mikeowino.com</b></a>
+<a href="https://mikeowino.com/jekyll_game/" target="_blank"><b>mikeowino.com</b></a>
 
 
 Rich Vue.js interface to control various d3.js visualizations of confirmed and deceased cases data reported by JHU CSSE in all countries.
