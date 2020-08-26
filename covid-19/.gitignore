@@ -1,0 +1,14 @@
+# Package Files #
+*.war
+*.ear
+
+.DS_Store
+
+# IDEA config files
+.idea/
+
+# atom-live-server configuration file
+.atom-live-server.json
+
+# Python virtual environment
+venv/
