@@ -144,13 +144,21 @@ for item in items[2:]:
     if death == "–" or death == "—":
         death = "0"
 
-    if (int(death) > int(confirmed)) or (int(recovered) > int(confirmed)):
-        potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
-
     print(name, confirmed, death, recovered)
 
     sqls += ", '" + name.replace("'", "''") + "'"
-    sqle += "'" + confirmed + "-0-" + recovered + "-" + death + "', "
+
+    if (int(death) > int(confirmed)) or (int(recovered) > int(confirmed)):
+        potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
+        conn = sqlite3.connect("assets/virus.db")
+        cursor = conn.cursor()
+        cursor = conn.execute(("SELECT " + name + " FROM virus ORDER BY datetime desc LIMIT 1, 1"))
+        last_data = cursor.fetchall()[0][0]
+        conn.close()
+
+        sqle += "'" + last_data + "', "
+    else:
+        sqle += "'" + confirmed + "-0-" + recovered + "-" + death + "', "
 
 # U.S. States - new data source nyt
 conn = sqlite3.connect("assets/virus.db")
@@ -320,15 +328,19 @@ if potential_error:
     message = """\
     Subject: Data Update Error - COVID-19 Website
 
-    There are errors while updating the database. Please check."""
+    There are errors while updating the database. Please check.
+    
+    %s
+    """
+
+    message = message % ("".join(potential_error))
 
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message)
 
-    subprocess.call(['/home/pi/workspaces/git_reset_hard.sh'])
-else:
-    subprocess.call(['/home/pi/workspaces/git_commit_push.sh'])
-    time.sleep(30)
-    subprocess.call(['/home/pi/workspaces/update_virus_web.sh'])
+
+subprocess.call(['/home/pi/workspaces/git_commit_push.sh'])
+time.sleep(30)
+subprocess.call(['/home/pi/workspaces/update_virus_web.sh'])

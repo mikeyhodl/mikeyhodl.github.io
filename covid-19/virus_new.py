@@ -10,8 +10,8 @@ import requests
 
 # browser = webdriver.Chrome("/Users/FengyuXu/Desktop/web_crawler/twitter_crawler/chromedriver")
 # browser = webdriver.Chrome("C:/workspace/chromedriver.exe")
-# browser = webdriver.Chrome("D:/dev/workspaces/chromedriver.exe")
-browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
+browser = webdriver.Chrome("D:/dev/workspaces/chromedriver.exe")
+# browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
 # browser = webdriver.Chrome()
 
 # Variable Preparation
@@ -143,13 +143,21 @@ for item in items[2:]:
     if death == "–" or death == "—":
         death = "0"
 
-    if (int(death) > int(confirmed)) or (int(recovered) > int(confirmed)):
-        potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
-
     print(name, confirmed, death, recovered)
 
     sqls += ", '" + name.replace("'", "''") + "'"
-    sqle += "'" + confirmed + "-0-" + recovered + "-" + death + "', "
+
+    if (int(death) > int(confirmed)) or (int(recovered) > int(confirmed)):
+        potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
+        conn = sqlite3.connect("assets/virus.db")
+        cursor = conn.cursor()
+        cursor = conn.execute(("SELECT " + name + " FROM virus ORDER BY datetime desc LIMIT 1, 1"))
+        last_data = cursor.fetchall()[0][0]
+        conn.close()
+
+        sqle += "'" + last_data + "', "
+    else:
+        sqle += "'" + confirmed + "-0-" + recovered + "-" + death + "', "
 
 # U.S. States - new data source nyt
 conn = sqlite3.connect("assets/virus.db")
