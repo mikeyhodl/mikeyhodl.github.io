@@ -152,7 +152,7 @@ for item in items[2:]:
         potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
         conn = sqlite3.connect("assets/virus.db")
         cursor = conn.cursor()
-        cursor = conn.execute(("SELECT " + name + " FROM virus ORDER BY datetime desc LIMIT 1, 1"))
+        cursor = conn.execute(("SELECT `" + name + "` FROM virus ORDER BY datetime desc LIMIT 1, 1"))
         last_data = cursor.fetchall()[0][0]
         conn.close()
 
@@ -184,7 +184,6 @@ with urllib.request.urlopen(urllink) as url:
 # U.S. States - old version which uses NBC data
 conn = sqlite3.connect("assets/virus.db")
 cursor = conn.cursor()
-
 urllink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdW9DsR5iffFcJvKAJXyOiNn4IYtavRIGslkcJIslHJC7UfrbChv-L4E89TeDEcWZS6QSzCuHWeMON/pub?gid=1879451031&single=true&output=csv"
 with urllib.request.urlopen(urllink) as url:
     content = url.read().decode()
@@ -327,9 +326,7 @@ if potential_error:
     password = open("steven_gmail_password", "r").read().split("\n")[2]
     message = """\
     Subject: Data Update Error - COVID-19 Website
-
     There are errors while updating the database. Please check.
-    
     %s
     """
 
@@ -341,6 +338,6 @@ if potential_error:
         server.sendmail(sender_email, receiver_email, message)
 
 
-subprocess.call(['/home/pi/workspaces/git_commit_push.sh'])
+subprocess.call(['/home/ubuntu/workspaces/git_commit_push.sh'])
 time.sleep(30)
-subprocess.call(['/home/pi/workspaces/update_virus_web.sh'])
+subprocess.call(['/home/ubuntu/workspaces/update_virus_web.sh'])
