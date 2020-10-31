@@ -10,8 +10,9 @@ import requests
 
 # browser = webdriver.Chrome("/Users/FengyuXu/Desktop/web_crawler/twitter_crawler/chromedriver")
 # browser = webdriver.Chrome("C:/workspace/chromedriver.exe")
-# browser = webdriver.Chrome("E:/dev/workspaces/chromedriver.exe")
+# browser = webdriver.Chrome("D:/dev/workspaces/chromedriver.exe")
 browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
+# browser = webdriver.Chrome()
 
 # Variable Preparation
 now = str(datetime.now())
@@ -135,20 +136,28 @@ for item in items[2:]:
     '''
 
     confirmed = item.find_all("td")[0].text.split("\n")[0].replace(",", "").replace("No data", "0").replace(" ", "")
-    death = item.find_all("td")[1].text.split("\n")[0].replace(",", "").replace("No data", "0").replace("[am]","")
+    death = item.find_all("td")[1].text.split("\n")[0].replace(",", "").replace("No data", "0").replace("[al]","")
     recovered = item.find_all("td")[2].text.split("\n")[0].replace(",", "").replace("No data", "0")
     if recovered == "–" or recovered == "—":
         recovered = "0"
     if death == "–" or death == "—":
         death = "0"
 
-    if (int(death) > int(confirmed)) or (int(recovered) > int(confirmed)):
-        potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
-
     print(name, confirmed, death, recovered)
 
     sqls += ", '" + name.replace("'", "''") + "'"
-    sqle += "'" + confirmed + "-0-" + recovered + "-" + death + "', "
+
+    if (int(death) > int(confirmed)) or (int(recovered) > int(confirmed)):
+        potential_error.append((name + " Confirmed: " + confirmed + ", Recovered: " + recovered + ", Death: " + death))
+        conn = sqlite3.connect("assets/virus.db")
+        cursor = conn.cursor()
+        cursor = conn.execute(("SELECT " + name + " FROM virus ORDER BY datetime desc LIMIT 1, 1"))
+        last_data = cursor.fetchall()[0][0]
+        conn.close()
+
+        sqle += "'" + last_data + "', "
+    else:
+        sqle += "'" + confirmed + "-0-" + recovered + "-" + death + "', "
 
 # U.S. States - new data source nyt
 conn = sqlite3.connect("assets/virus.db")
@@ -206,7 +215,7 @@ for province in provinces[1:-1]:
     # print (province.text)
     confirmed = province.find_all("td")[1].text.replace(",", "")
     # probable = province.find_all("td")[2].text.replace(",","")
-    recovered = province.find_all("td")[5].text.replace(",", "").replace("***", "")
+    recovered = province.find_all("td")[5].text.replace(",", "").replace("***", "").replace("**", "")
     death = province.find_all("td")[6].text.replace(",", "")
 
     # if enName in canadacities:
