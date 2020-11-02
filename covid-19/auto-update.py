@@ -184,6 +184,7 @@ with urllib.request.urlopen(urllink) as url:
 # U.S. States - old version which uses NBC data
 conn = sqlite3.connect("assets/virus.db")
 cursor = conn.cursor()
+
 urllink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQdW9DsR5iffFcJvKAJXyOiNn4IYtavRIGslkcJIslHJC7UfrbChv-L4E89TeDEcWZS6QSzCuHWeMON/pub?gid=1879451031&single=true&output=csv"
 with urllib.request.urlopen(urllink) as url:
     content = url.read().decode()
@@ -320,13 +321,15 @@ if potential_error:
     import ssl
 
     port = 465  # For SSL
-    smtp_server = "smtp.gmail.com"
+    smtp_server = "smtp.googlemail.com"
     receiver_email = open("steven_gmail_password", "r").read().split("\n")[0]
     sender_email = open("steven_gmail_password", "r").read().split("\n")[1]
     password = open("steven_gmail_password", "r").read().split("\n")[2]
     message = """\
     Subject: Data Update Error - COVID-19 Website
+
     There are errors while updating the database. Please check.
+
     %s
     """
 
@@ -337,7 +340,4 @@ if potential_error:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message)
 
-
-subprocess.call(['/home/ubuntu/workspaces/git_commit_push.sh'])
-time.sleep(30)
-subprocess.call(['/home/ubuntu/workspaces/update_virus_web.sh'])
+    
