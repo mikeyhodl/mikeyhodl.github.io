@@ -6,4 +6,5 @@ const examplePromise = () => {
       setTimeout( () => resolve('failed'), 5000);
     }
   });
+  
 };
