@@ -8,7 +8,7 @@ purple = [280, 50, 60];
 // Letters in the message will cycle through these colors:
 letterColors = [red, orange, green, blue, purple];
 
-message = 'Mike Owino';
+message = '404 page Mike Owino';
 
 drawName(message, letterColors);
 bounceBubbles();
