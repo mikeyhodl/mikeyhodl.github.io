@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4369240c-9c16-4b55-8301-025bb8a56aca/deploy-status)](https://app.netlify.com/sites/naughty-hoover-22fbb9/deploys)
+
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
 
 
