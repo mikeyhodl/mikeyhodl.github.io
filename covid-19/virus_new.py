@@ -10,8 +10,8 @@ import requests
 
 # browser = webdriver.Chrome("/Users/FengyuXu/Desktop/web_crawler/twitter_crawler/chromedriver")
 # browser = webdriver.Chrome("C:/workspace/chromedriver.exe")
-# browser = webdriver.Chrome("D:/dev/workspaces/chromedriver.exe")
-browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
+browser = webdriver.Chrome("D:/dev/workspaces/chromedriver.exe")
+# browser = webdriver.Chrome("/Users/stevenbao/dev/chromedriver")
 # browser = webdriver.Chrome()
 
 # Variable Preparation
@@ -136,7 +136,7 @@ for item in items[2:]:
     '''
 
     confirmed = item.find_all("td")[0].text.split("\n")[0].replace(",", "").replace("No data", "0").replace(" ", "")
-    death = item.find_all("td")[1].text.split("\n")[0].replace(",", "").replace("No data", "0").replace("[al]","")
+    death = item.find_all("td")[1].text.split("\n")[0].replace(",", "").replace("No data", "0").replace("[al]","").replace("+","")
     recovered = item.find_all("td")[2].text.split("\n")[0].replace(",", "").replace("No data", "0").replace(".","")
     if recovered == "–" or recovered == "—":
         recovered = "0"
