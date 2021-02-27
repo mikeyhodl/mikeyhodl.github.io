@@ -1,26 +1,26 @@
 # Site settings
-name: Brittany Chiang
-title: Brittany Chiang | Front End Software Engineer
+name: Mike Owino
+title: Mike Owino | Full-Stack Developer
 description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+url: https://mikeowino.com/
 baseurl: ''
-email: brittany.chiang@gmail.com
-cover: https://bchiang7.github.io/img/og.png
-logo: https://bchiang7.github.io/img/emojis/technologist.png
-resume: https://bchiang7.github.io/resume.pdf
+email: mike@mikeowino.com
+cover: https://mikeowino.com/img/og.png
+logo: https://mikeowino.com/img/emojis/technologist.png
+resume: https://mikeowino.com/resume.pdf
 social:
   - title: email
-    url: mailto:brittany.chiang@gmail.com
+    url: mailto:mike@mikeowino.com
   - title: twitter
-    url: https://twitter.com/bchiang7
+    url: https://twitter.com/mikeeowino
   - title: instagram
-    url: https://instagram.com/bchiang7
+    url: https://instagram.com/mikeeowino
   - title: codepen
-    url: http://codepen.io/bchiang7
+    url: http://codepen.io/mikeowino
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/MikeOwino
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/mikeeowino
 
 # Build settings
 markdown: kramdown
