@@ -1,18 +1,18 @@
-- name: Surf Videos
-  url: https://github.com/bchiang7/Surf-Videos
-  code: https://github.com/bchiang7/Surf-Videos
-  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+- name: Covid
+  url: https://covid.mikeowino.com/
+  code: https://covid.mikeowino.com/
+  description: Small project for show casing Covid-19 cases via the covid API.
   used:
     - thing: JavaScript
     - thing: React
     - thing: React Router
     - thing: Axios
-    - thing: YouTube API
+    - thing: Covid API
 
-- name: Halcyon Theme
-  url: https://bchiang7.github.io/halcyon-site/
-  code: https://github.com/bchiang7/halcyon-site
-  description: A minimal, dark theme for Sublime Text, Atom, VS Code, and more published to <a class="underline-link" href="https://packagecontrol.io/packages/Halcyon%20Theme">Package Control</a>, <a class="underline-link" href="https://atom.io/themes/halcyon-syntax">Atom Package Manager</a>, <a class="underline-link" href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode">Visual Studio Marketplace</a>, and <a class="underline-link" href="https://www.npmjs.com/package/hyper-halcyon-theme">NPM</a>.
+- name: Studio
+  url: https://mikeowino.studio/
+  code: https://mikeowino.studio/
+  description: A minimal, dark theme still under development.
   used:
     - thing: Gatsby
     - thing: Sublime Text
@@ -21,10 +21,10 @@
     - thing: iTerm2
     - thing: Hyper
 
-- name: Lonely Planet DBMS
-  url: https://github.com/bchiang7/CS3200-Project
-  code: https://github.com/bchiang7/CS3200-Project
-  description: Final project for my Database Design course at Northeastern. A simple web application that allows users to filter through a database containing Lonely Planet's <a class="underline-link" href="https://www.amazon.com/Lonely-Planets-Ultimate-Travel-Places/dp/1760342777" target="_blank">Top 500 Travel Destinations</a>. Users are able to add themselves as visitors as well as leave reviews of the destinations.
+- name: Shop
+  url: https://shop.mikeowino.com/
+  code: https://shop.mikeowino.com/
+  description: minimal shoppy shop with crypto payment and paypal.
   used:
     - thing: Python
     - thing: MySQL
@@ -33,10 +33,10 @@
     - thing: CSS
     - thing: JavaScript
 
-- name: myNEU Redesign
-  url: https://bchiang7.github.io/Redesign-myNEU/
-  code: https://github.com/bchiang7/Redesign-myNEU
-  description: myNEU student portal web prototype for my information science senior project. I conducted a study that aimed to answer the question of how myNEU can be improved to provide students at Northeastern with a better user experience. Informed by usability metrics gathered from user tests, I redesigned and developed a web prototype of myNEU.
+- name: WeKnow
+  url: https://WeKnow.mikeowino.com/
+  code: https://WeKnow.mikeowino.com/
+  description: My Anticipated business that hopefully will do a lot in the online market delivery.
   used:
     - thing: Jekyll
     - thing: HTML
