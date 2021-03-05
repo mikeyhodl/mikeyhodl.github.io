@@ -80,9 +80,9 @@
 #   - thing: Marionette
 #   - thing: Cordova
 
-- name: Personal Website V2
-  url: https://bchiang7.github.io/v2
-  code: https://github.com/bchiang7/v2
+- name: Personal Website
+  url: https://mikeowino.github.io
+  code: https://mikeowino.github.io
   description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
   used:
     - thing: Jekyll
@@ -92,9 +92,9 @@
     - thing: Github Pages
 
 - name: React Resume
-  url: https://bchiang7.github.io/react-profile/
-  code: https://github.com/bchiang7/react-profile/
-  description: An online version of my 2016 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+  url: https://cv.mikeowino.com/
+  code: https://cv.mikeowino.com/
+  description: An online version of my 2020 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
   used:
     - thing: JavaScript
     - thing: React
