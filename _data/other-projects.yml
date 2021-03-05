@@ -43,31 +43,30 @@
     - thing: SCSS
     - thing: JavaScript
 
-- name: Crowd DJ
-  url: https://github.com/crowddj/crowddj-react
-  code: https://github.com/crowddj/crowddj-react
+- name: Spotify
+  url: https://spotify-overview.herokuapp.com/
+  code: https://spotify-overview.herokuapp.com/
   description:
-    A web app that allows people who are at a party or social gathering with a DJ to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue. <br>
-    <a class="small" href="http://projects.hackbeanpot.com/2017-projects.html">🏆 Won Best UI/UX Design at Hackbeanpot 2017 🏆</a>
+    A web app for visualizing personalized Spotify.
   used:
     - thing: React
     - thing: Sass
     - thing: Firebase
     - thing: Spotify API
 
-- name: Weather Widget
-  url: http://quiet-dusk-89245.herokuapp.com/
-  code: https://github.com/bchiang7/DemoWebApp
-  description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
-  img: weather
-  used:
-    - thing: JavaScript
-    - thing: CSS
-    - thing: Node.js
-    - thing: Express
-    - thing: Heroku
-    - thing: OpenWeatherMap API
-    - thing: Google Maps API
+#- name: Weather Widget
+ # url: http://quiet-dusk-89245.herokuapp.com/
+ # code: https://github.com/bchiang7/DemoWebApp
+ # description: A simple weather app I made at HubSpot's Fall 2016 Web App Workshop with Node.js, Express, and Heroku. I used the OpenWeatherMap API to get weather and forecast data, and then used the current city's coordinates to create a map background that reflected the current city using the Google Maps API.
+ # img: weather
+ # used:
+ #   - thing: JavaScript
+ #   - thing: CSS
+ #   - thing: Node.js
+ #   - thing: Express
+ #   - thing: Heroku
+ #   - thing: OpenWeatherMap API
+#    - thing: Google Maps API
 
 # - name: ScreenTime 2.0
 #   url: https://play.google.com/store/apps/details?id=com.starry.management
