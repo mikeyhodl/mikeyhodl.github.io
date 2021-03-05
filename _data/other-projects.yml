@@ -99,64 +99,67 @@
     - thing: JavaScript
     - thing: React
     - thing: CSS
-
-- name: CourseSource
-  url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
-  code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
-  description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
-  used:
-    - thing: HTML
-    - thing: CSS
     - thing: JavaScript
     - thing: Node.js
-    - thing: Angular
-    - thing: Express
-    - thing: MongoDB
+    - thing: Gatsby
 
-- name: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  code: https://github.com/nuwit/website
-  description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Bootstrap
+#- name: CourseSource
+ # url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
+ # code: https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project
+ # description: A web application built on the MEAN (MongoDB, Express, Angular, Node) stack for my web development course at Northeastern. I created this web app with the intention of providing Northeastern Students a better experience browsing the courses offered at Northeastern.
+ # used:
+ #   - thing: HTML
+#    - thing: CSS
+#    - thing: JavaScript
+#    - thing: Node.js
+#    - thing: Angular
+#    - thing: Express
+#    - thing: MongoDB
 
-- name: Fontipsums
-  url: https://bchiang7.github.io/fontipsums
-  code: https://github.com/bchiang7/fontipsums
-  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
-  used:
-    - thing: HTML
-    - thing: SCSS
+#- name: NU Women in Tech
+ # url: http://nuwit.ccs.neu.edu/
+ # code: https://github.com/nuwit/website
+ # description: Complete overhaul and redesign of NU Women in Tech's club website using Jekyll, built while serving as web chair on the e-board.
+ # used:
+ #   - thing: Jekyll
+ #   - thing: HTML
+ #   - thing: CSS
+ #  - thing: JavaScript
+ #   - thing: Bootstrap
 
-- name: Personal Website V1
-  url: https://bchiang7.github.io/v1
-  code: https://github.com/bchiang7/website_2015/
-  description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: Bootstrap
-    - thing: JavaScript
-    - thing: jQuery
+#- name: Fontipsums
+#  url: https://bchiang7.github.io/fontipsums
+#  code: https://github.com/bchiang7/fontipsums
+#  description: As someone who has an eye for typography, I wanted a way to visually see different font combinations together. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.
+#  used:
+#    - thing: HTML
+#    - thing: SCSS
 
-- name: One Card For All
-  url: http://onecardforall.org
-  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
-  used:
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: jQuery
+#- name: Personal Website V1
+ # url: https://bchiang7.github.io/v1
+ # code: https://github.com/bchiang7/website_2015/
+ # description: My first portfolio website I designed and built in 2014. I learned quite a bit about HTML, CSS, and SEO. Since then, I think my web development and design skills have improved immensely.
+ # used:
+ #   - thing: HTML
+ #   - thing: CSS
+ #   - thing: Bootstrap
+ #   - thing: JavaScript
+ #   - thing: jQuery
 
-- name: JetBlue HumanKinda
-  url: https://us.mullenlowe.com/work/humankinda/
-  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
-  used:
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
-    - thing: jQuery
+#- name: One Card For All
+#  url: http://onecardforall.org
+#  description: MullenLowe's 2016 holiday site built around an algorithm that generates a holiday greeting to each and every person on the planet. As new names appear, visitors can watch them fall, like snowflakes, onto a stylized world map. Users can also find their own name and see it as part of the world collective. Check out this short <a class="underline-link" href="http://us.mullenlowe.com/work/one-card-for-all/" target="_blank">video</a> describing the project.
+#  used:
+#    - thing: HTML
+#    - thing: SCSS
+#    - thing: JavaScript
+ #   - thing: jQuery
+
+#- name: JetBlue HumanKinda
+#  url: https://us.mullenlowe.com/work/humankinda/
+#  description: Tumblr site complementing JetBlue's HumanKinda campaign and documentary. The site houses the video documentary, many graphics created by Mullen for the campaign, and an interactive quiz to determine how "HumanKinda" you are. Learn more about this project <a class="underline-link" href="http://us.mullenlowe.com/work/humankinda/" target="_blank">here</a>.
+#  used:
+#    - thing: HTML
+#    - thing: CSS
+#   - thing: JavaScript
+#    - thing: jQuery
