@@ -1,3 +1,4 @@
+[![Build and Deploy to GKE](https://github.com/MikeOwino/MikeOwino.github.io/actions/workflows/google.yml/badge.svg)](https://github.com/MikeOwino/MikeOwino.github.io/actions/workflows/google.yml)
 # mikeowino.com
 
 ## Dependencies
