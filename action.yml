@@ -1,0 +1,4 @@
+uses: muinmomin/webhook-action@v1.0.0
+with:
+  url: ${{ https://api.telegram.org/bot1549867382:AAGS9lD7o-bI8nc9xg5QdKgE6FjQ5lcCcm4/sendMessage?chat_id=298284129&text=mainsite has been deployed successfully }}
+  data: "{'command': 'publish'}"
