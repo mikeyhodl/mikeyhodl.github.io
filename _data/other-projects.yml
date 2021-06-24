@@ -34,8 +34,8 @@
     - thing: JavaScript
 
 - name: WeKnow
-  url: https://WeKnow.mikeowino.com/
-  code: https://WeKnow.mikeowino.com/
+  url: https://app.weknow.studio
+  code: https://app.weknow.studio
   description: My Anticipated business that hopefully will do a lot in the online market delivery.
   used:
     - thing: Jekyll
