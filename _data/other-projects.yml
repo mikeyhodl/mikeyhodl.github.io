@@ -10,8 +10,8 @@
     - thing: Covid API
 
 - name: Studio
-  url: https://mikeowino.studio/
-  code: https://mikeowino.studio/
+  url: https://app.weknow.studio
+  code: https://app.weknow.studio
   description: A minimal, dark theme still under development.
   used:
     - thing: Gatsby
