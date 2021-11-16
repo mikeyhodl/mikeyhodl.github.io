@@ -10,7 +10,7 @@ logo: https://mikeowino.com/img/emojis/technologist.png
 resume: https://mikeowino.com/resume.pdf
 social:
   - title: email
-    url: mailto:mike@mikeowino.com
+    url: mailto:mike@mikeowino.com?subject=Greeting to you Mike&body=I like your website
   - title: twitter
     url: https://twitter.com/mikeyhodl
   - title: instagram
