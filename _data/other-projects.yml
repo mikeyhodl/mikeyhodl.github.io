@@ -9,9 +9,9 @@
     - thing: Axios
     - thing: Covid API
 
-- name: Studio
-  url: https://app.weknow.studio
-  code: https://app.weknow.studio
+- name: Photos
+  url: https://photos.mikeowino.com/
+  code: https://photos.mikeowino.com/
   description: A minimal, dark theme still under development.
   used:
     - thing: Gatsby
