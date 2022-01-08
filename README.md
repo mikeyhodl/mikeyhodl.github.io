@@ -1,4 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46c556ba-b160-4f15-91cf-d4cc785b7942/deploy-status)](https://app.netlify.com/sites/mikeowinosite/deploys)
+![Metrics](https://metrics.lecoq.io/mikeowino?template=classic&config.timezone=Africa%2FNairobi)
+
 
 
 [![Build and Deploy to GKE](https://github.com/MikeOwino/MikeOwino.github.io/actions/workflows/google.yml/badge.svg)](https://github.com/MikeOwino/MikeOwino.github.io/actions/workflows/google.yml)
