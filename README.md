@@ -1,5 +1,3 @@
-# mikeowino.com
-
 ## Dependencies
 
 - [Gulp](https://gulpjs.com/)
