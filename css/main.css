@@ -63,7 +63,7 @@
     font-style: italic;
 }
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 0px;
 }
 
 /* Track */
