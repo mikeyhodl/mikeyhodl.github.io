@@ -5,16 +5,16 @@ languages:
   - item: CSS/Sass
   - item: Python
   - item: SQL
-  - item: R
+  # - item: R
 
 frameworks:
-  - item: Ember & Glimmer
+  # - item: Ember & Glimmer
   - item: React
   - item: Jekyll
   - item: Node
-  - item: D3
+  # - item: D3
   - item: Wordpress
-  - item: Timber
+  # - item: Timber
 
 tools:
   - item: Bash
@@ -25,9 +25,9 @@ tools:
   - item: MongoDB
 
 design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
+  # - item: Sketch
+  # - item: InDesign
+  # - item: InVision
   - item: Prototyping
-  - item: Wireframing
+  # - item: Wireframing
   - item: User Testing
