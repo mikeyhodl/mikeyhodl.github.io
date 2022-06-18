@@ -10,8 +10,8 @@
 #     - thing: Covid API
 
 - name: Photos
-  url: https://photos.mikeowino.com/
-  code: https://photos.mikeowino.com/
+  url: https://omg.mikeowino.com/
+  code: https://img.mikeowino.com/
   description: A minimal, dark theme still under development.
   used:
     - thing: Gatsby
