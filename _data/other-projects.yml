@@ -1,13 +1,13 @@
-- name: Covid
-  url: https://covid.mikeowino.com/
-  code: https://covid.mikeowino.com/
-  description: Small project for show casing Covid-19 cases via the covid API.
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: React Router
-    - thing: Axios
-    - thing: Covid API
+# - name: Covid
+#   url: https://covid.mikeowino.com/
+#   code: https://covid.mikeowino.com/
+#   description: Small project for show casing Covid-19 cases via the covid API.
+#   used:
+#     - thing: JavaScript
+#     - thing: React
+#     - thing: React Router
+#     - thing: Axios
+#     - thing: Covid API
 
 - name: Photos
   url: https://photos.mikeowino.com/
@@ -21,38 +21,38 @@
     - thing: iTerm2
     - thing: Hyper
 
-- name: Shop
-  url: https://shop.mikeowino.com/
-  code: https://shop.mikeowino.com/
-  description: minimal shoppy shop with crypto payment and paypal.
-  used:
-    - thing: Python
-    - thing: MySQL
-    - thing: Flask
-    - thing: HTML
-    - thing: CSS
-    - thing: JavaScript
+# - name: Shop
+#   url: https://shop.mikeowino.com/
+#   code: https://shop.mikeowino.com/
+#   description: minimal shoppy shop with crypto payment and paypal.
+#   used:
+#     - thing: Python
+#     - thing: MySQL
+#     - thing: Flask
+#     - thing: HTML
+#     - thing: CSS
+#     - thing: JavaScript
 
-- name: WeKnow
-  url: https://app.weknow.studio
-  code: https://app.weknow.studio
-  description: My Anticipated business that hopefully will do a lot in the online market delivery.
-  used:
-    - thing: Jekyll
-    - thing: HTML
-    - thing: SCSS
-    - thing: JavaScript
+# - name: WeKnow
+#   url: https://app.weknow.studio
+#   code: https://app.weknow.studio
+#   description: My Anticipated business that hopefully will do a lot in the online market delivery.
+#   used:
+#     - thing: Jekyll
+#     - thing: HTML
+#     - thing: SCSS
+#     - thing: JavaScript
 
-- name: Spotify
-  url: https://spotify-overview.herokuapp.com/
-  code: https://spotify-overview.herokuapp.com/
-  description:
-    A web app for visualizing personalized Spotify.
-  used:
-    - thing: React
-    - thing: Sass
-    - thing: Firebase
-    - thing: Spotify API
+# - name: Spotify
+#   url: https://spotify-overview.herokuapp.com/
+#   code: https://spotify-overview.herokuapp.com/
+#   description:
+#     A web app for visualizing personalized Spotify.
+#   used:
+#     - thing: React
+#     - thing: Sass
+#     - thing: Firebase
+#     - thing: Spotify API
 
 #- name: Weather Widget
 # url: http://quiet-dusk-89245.herokuapp.com/
@@ -79,28 +79,28 @@
 #   - thing: Marionette
 #   - thing: Cordova
 
-- name: Personal Website
-  url: https://mikeowino.github.io
-  code: https://mikeowino.github.io
-  description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
-  used:
-    - thing: Jekyll
-    - thing: Handlebars
-    - thing: SCSS
-    - thing: JavaScript
-    - thing: Github Pages
+# - name: Personal Website
+#   url: https://mikeowino.github.io
+#   code: https://mikeowino.github.io
+#   description: Second iteration of my personal website. Designed and developed with a conscious effort to avoid using any superfluous frameworks like Bootstrap.
+#   used:
+#     - thing: Jekyll
+#     - thing: Handlebars
+#     - thing: SCSS
+#     - thing: JavaScript
+#     - thing: Github Pages
 
-- name: React Resume
-  url: https://cv.mikeowino.com/
-  code: https://cv.mikeowino.com/
-  description: An online version of my 2020 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
-  used:
-    - thing: JavaScript
-    - thing: React
-    - thing: CSS
-    - thing: JavaScript
-    - thing: Node.js
-    - thing: Gatsby
+# - name: React Resume
+#   url: https://cv.mikeowino.com/
+#   code: https://cv.mikeowino.com/
+#   description: An online version of my 2020 resume I made for fun. I was interested in learning React.js, so I found this <a class="underline-link" href="https://medium.com/learning-new-stuff/building-your-first-react-js-app-d53b0c98dc#.1439cdewq">simple tutorial</a> and it kind of spun into this weekend project. I probably didn't need to use React at all, but hey, at least I learned a few things!
+#   used:
+#     - thing: JavaScript
+#     - thing: React
+#     - thing: CSS
+#     - thing: JavaScript
+#     - thing: Node.js
+#     - thing: Gatsby
 
 #- name: CourseSource
  # url: http://webdevspring2016-chiangbrittany.rhcloud.com/project/client/#/login
