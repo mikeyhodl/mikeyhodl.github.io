@@ -10,16 +10,17 @@
 #     - thing: Covid API
 
 - name: Photos
-  url: https://omg.mikeowino.com/
+  url: https://img.mikeowino.com/
   code: https://img.mikeowino.com/
   description: A minimal, dark theme still under development.
   used:
-    - thing: Gatsby
+    - thing: React
     - thing: Sublime Text
-    - thing: Atom
+    # - thing: Atom
     - thing: VS Code
-    - thing: iTerm2
-    - thing: Hyper
+    # - thing: iTerm2
+    - thing: Nodejs
+    
 
 # - name: Shop
 #   url: https://shop.mikeowino.com/
