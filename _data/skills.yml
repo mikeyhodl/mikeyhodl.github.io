@@ -8,13 +8,10 @@ languages:
   - item: Solidity
 
 frameworks:
-  # - item: Ember & Glimmer
   - item: React
   - item: Jekyll
   - item: Node
-  # - item: D3
   - item: Wordpress
-  # - item: Timber
 
 tools:
   - item: Bash
@@ -25,9 +22,5 @@ tools:
   - item: MongoDB
 
 design:
-  # - item: Sketch
-  # - item: InDesign
-  # - item: InVision
   - item: Prototyping
-  # - item: Wireframing
   - item: User Testing
