@@ -1,7 +1,7 @@
 # Site settings
 name: Mike Owino
 title: Mike Owino | Full-Stack Developer
-description: Design-minded Full-Stack Developer focused on building beautiful interfaces and experiences
+description: A blockchain developer BUIDLING on Ethereum and Binance Smart Chain
 url: https://mikeowino.com/
 baseurl: ''
 email: mike@mikeowino.com
@@ -19,9 +19,7 @@ social:
     url: http://codepen.io/mikeowino
   - title: github
     url: https://github.com/mikeyhodl
-  # - title: linkedin
-    # url: https://www.linkedin.com/in/mikeeowino
-
+  
 # Build settings
 markdown: kramdown
 
