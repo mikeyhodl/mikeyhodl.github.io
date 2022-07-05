@@ -13,14 +13,10 @@ social:
     url: mailto:mike@mikeowino.com?subject=Greetings to you Mike&body=I like your website
   - title: twitter
     url: https://twitter.com/mikeyhodl
-  # - title: instagram
-    # url: https://instagram.com/mikeeowino
   - title: codepen
     url: http://codepen.io/mikeowino
   - title: github
     url: https://github.com/mikeyhodl
-  # - title: linkedin
-    # url: https://www.linkedin.com/in/mikeeowino
 
 # Build settings
 markdown: kramdown
