@@ -11,9 +11,9 @@ resume: https://mikeowino.com/Mike_Owino_Resume.pdf
 btc: https://res.cloudinary.com/weknow-creators/image/upload/v1651817194/BTC_cvuile.png
 social:
   - title: email
-    url: mailto:mike@mikeowino.com?subject=Greetings to you Mike&body=I like your website
-  - title: twitter
-    url: https://twitter.com/mikeyhodl
+    url: mailto:mike@mikeowino.com?subject=Developer Needed&body=Hi Mike, I need a [type of website] website
+  # - title: twitter
+    # url: https://twitter.com/mikeyhodl
   - title: codepen
     url: http://codepen.io/mikeowino
   - title: github
